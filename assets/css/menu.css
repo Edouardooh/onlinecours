@@ -1,0 +1,50 @@
+/*** ---------------------------- MENU ------------------------ ***/
+.menu{
+    position: fixed;
+    right: 0;
+    width: 25%;
+    height: 750px;
+}
+.menu .cours{
+    height: calc(100vh - 60px);
+    background-color: rgb(131, 24, 131);
+    
+}
+.menu .cours .cours-title{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.menu .cours .cours-title h3{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0;
+ 
+}
+.menu .cours .cours-title i{
+    bottom: 7px;
+    right: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.menu .cours .cours-title i:hover{
+    font-size: 1.8rem;
+    box-shadow: 2px 8px 16px rgba(0 0 0/16%);
+}
+.menu .cours .cours-title i:hover{
+    color: red;
+}
+.menu .container-progra{
+    height: 90%;
+}
+.menu .programes{
+    height: 97%;
+    margin: 5px;
+    background-color: white;
+}
+.menu .programes{
+    overflow-y: scroll;
+}

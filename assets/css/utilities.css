@@ -1,0 +1,16 @@
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.sticky{
+    position: sticky;
+}
+.border{
+    margin: 0 100px  0 100px;
+    
+}
+.none{
+    display: none;
+}

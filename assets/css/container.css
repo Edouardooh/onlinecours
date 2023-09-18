@@ -1,0 +1,28 @@
+/** ---------------------------------- CONTAINER ------------------------ **/
+.container-home{
+    background-color: rgb(125, 121, 121);
+    width: 75%;
+}
+.container-home .play-video{
+    background-color: white;
+    margin: 0 70px  0px 70px;
+    height: calc(100vh - 66px);
+}
+.container-home .details{
+    min-height: 500px;
+    background-color: white;
+}
+.container-home .details .row{
+    text-align: center;
+}
+.container-home .details .row div{
+    background-color: green;
+    padding: 15px 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container-home .details .row div:hover{
+    background-color: rgb(12, 87, 12);
+}

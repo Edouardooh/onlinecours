@@ -1,0 +1,60 @@
+/** -----------------HEADER--------------------- **/
+.header{
+    background-color: rgb(210, 203, 203);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 2px 8px 16px rgba(0 0 0/1%);
+    border-bottom: 2px solid black;
+}
+.header{
+    height: 60px;
+}
+.header .header-top-left img{
+   
+   margin-left: 10px;
+   margin-top: 1px;
+  width:   100px;
+}
+.header .header-top-center-bord{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-align: center;
+    
+
+}
+.header .header-top-center-patpts{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.header-top-rigth .utilisateur{
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(17, 177, 17);
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.header-content #open{
+    right: -5px;
+    top: 70px;
+    cursor: pointer;
+    display: none;
+    background-color: rgb(131, 24, 131);
+    color: white;
+    font-size: 2rem;
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+.header-content #open:hover{
+    font-size: 2.5rem;
+    box-shadow: 2px 8px 16px rgba(131 24 131/16%);
+}
